@@ -4,21 +4,25 @@ import "./Accordion.css";
 
 const faqs = [
   {
-    question: "How does InfluRocket work?",
-    answer: `There are two parts in your web content- things that people are actively searching for and things that you as a content creator think people should know. Any content that has both these components is bound to grow organically in terms of SEO as well as social shares.
-		
-		By using our tools for keyword research prior to content creation, you basically start with your audience's immediate pain points and then provide them additional content which they would also find useful.`
+    question: "How Checkoutmojo works?",
+    answer: `Checkoutmojo informs you about availability of delivery times on different e-commerce app. Once you install the chrome extension and switch it on, you have to add all your items to your cart and go to the page where it shows "Not available" for all the days in "Select A Day". You can then go to any other tab in the chrome browser and as soon as a delivery time is available, Checkoutmojo will show a notification and take you to your cart where you can select a time and proceed to checkout. `,
   },
   {
-    question: "How is it different from other keyword tools?",
+    question: "How will I know when a delivery time becomes available?",
     answer:
-      "Other keyword tools focus on generating keyword ideas while InfluRocket focusses on content ideas. It's not just about keywords but also various types of questions that people ask, various problems they face and the value they are looking for."
+      "You have to remain in the chrome browser (any tab) and as soon as delivery time is available you will be shown a notification. ",
   },
   {
-    question: "How can I use InfluRocket?",
+    question:
+      "What are the e-commerce platforms for which Checkoutmojo is available?",
     answer:
-      "InfluRocket works in 4 steps. Finding keyword ideas and related questions, creating broad topics from those keywords , getting relevant data on the competition to help you select keywords and finally, combine relevant topics to the keywords to create the content."
-  }
+      "Currently, it works with Amazon Fresh but we will soon incorporate other apps like Instacart for notifications on availability. ",
+  },
+  {
+    question:
+      "Does it work with Amazon fresh phone app or  any non-chrome browser?",
+    answer: "Currently, we only support chrome. We do not support phone apps.",
+  },
 ];
 
 export default function Accordion() {
