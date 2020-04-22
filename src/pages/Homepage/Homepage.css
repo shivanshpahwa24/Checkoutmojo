@@ -1,11 +1,9 @@
 section {
   margin: 70px 0;
 }
-video {
-  width: 40vw;
-}
+
 @media (max-width: 768px) {
-  video {
-    width: 90vw;
+  .gif {
+    height: 40vh;
   }
 }

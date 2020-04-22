@@ -1,7 +1,15 @@
 import React from "react";
 
-import LogoImage from "../../assets/images/logo/logo.jpg";
+import LogoImage from "../../assets/images/logo/logo.png";
 
 export default function Logo() {
-  return <img src={LogoImage} height={35} width={150} alt="InfluRocket" />;
+  return (
+    <img
+      src={LogoImage}
+      height={75}
+      width={170}
+      style={{ marginLeft: "-1rem" }}
+      alt="InfluRocket"
+    />
+  );
 }

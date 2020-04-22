@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light sticky-top bg-white">
-      <div className="container">
+    <nav className="navbar navbar-expand-lg navbar-light sticky-top bg-white shadow my-0 py-0">
+      <div className="container-fluid d-flex align-items-center">
         <Logo />
         <button
           className="navbar-toggler"
@@ -36,9 +36,11 @@ const Navbar = () => {
             >
               Pricing
             </Link>
-            <Link className="nav-item nav-link" to="/">
-              <Button>Install</Button>
-            </Link>
+            <span className="nav-item nav-link">
+              <Button href="https://chrome.google.com/webstore/detail/hfmoopgkmgphacmnlipfebinmoakbbia/publish-accepted?authuser=0&hl=en">
+                Install
+              </Button>
+            </span>
           </div>
         </div>
       </div>

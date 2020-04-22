@@ -5,15 +5,16 @@ import Footer from "../../components/Footer/Footer";
 import Accordion from "../../components/Accordion2/Accordion";
 import TrySvg from "../../assets/images/background/install.svg";
 import Button from "../../components/Button/Button";
+import Gif from "../../assets/images/gif/gif.gif";
 
 const Home = () => {
   return (
-    <div style={{ overflow: "hidden" }}>
+    <div>
       <Navbar />
       <section>
-        <div class="d-md-flex justify-content-around">
-          <div class="col-12 col-md-4 my-2" style={{ zIndex: 10 }}>
-            <h3 class="heading">
+        <div className="d-md-flex justify-content-around ml-md-5">
+          <div className="col-12 col-md-4 my-2" style={{ zIndex: 10 }}>
+            <h3 className="heading">
               Get rid of checkout queues. Know exactly when the cart is ready
               for checkout.{" "}
             </h3>
@@ -22,7 +23,10 @@ const Home = () => {
               is a simple chrome extension that alerts you when your cart is
               ready for checkout.{" "}
             </p>
-            <Button classes="p-3">
+            <Button
+              classes="p-3"
+              href="https://chrome.google.com/webstore/detail/hfmoopgkmgphacmnlipfebinmoakbbia/publish-accepted?authuser=0&hl=en"
+            >
               Install{" "}
               <span className="font-weight-normal text-capitalize">
                 Checkoutmojo
@@ -31,12 +35,15 @@ const Home = () => {
           </div>
 
           <div
-            class="col-12 col-md-4 my-2 mr-md-5 mt-4 mt-md-0"
+            className="col-10 col-md-5 my-2 mr-md-5 mt-4 mt-md-0 mx-auto"
             style={{ zIndex: 10 }}
           >
-            <video autoplay="" loop="" playsinline="">
-              <source src="https://external-preview.redd.it/FuqGGUPh2r8D5y9joV5UzJLme-Q5KVUq-SQYaJrVOvE.gif?format=mp4&s=ff402255f420afbacbd330ae0cb998be8be05e31" />
-            </video>
+            <iframe
+              className="shadow gif"
+              style={{ border: 0, width: "100%", height: "50vh" }}
+              src={Gif}
+              title="gif"
+            ></iframe>
           </div>
         </div>
       </section>
@@ -50,7 +57,7 @@ const Home = () => {
         </p>
         <div className="embed-responsive embed-responsive-16by9 col-10 col-md-6 mx-auto">
           <iframe
-            class="embed-responsive-item"
+            className="embed-responsive-item"
             src="https://www.youtube.com/embed/9o1jmMaWsr8"
             title="demo"
           ></iframe>
@@ -71,7 +78,11 @@ const Home = () => {
           <div className="install-wrapper mx-auto mt-5 pt-5">
             <h2 className="heading text-white">Try it, it's free.</h2>
             <p className="text-white">Starting version is free, forever.</p>
-            <Button children="Get Started Now" classes="p-3" />
+            <Button
+              children="Get Started Now"
+              classes="p-3"
+              href="https://chrome.google.com/webstore/detail/hfmoopgkmgphacmnlipfebinmoakbbia/publish-accepted?authuser=0&hl=en"
+            />
           </div>
         </div>
       </section>
