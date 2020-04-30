@@ -37,7 +37,7 @@ const Navbar = () => {
               Pricing
             </Link>
             <span className="nav-item nav-link">
-              <Button href="https://chrome.google.com/webstore/detail/hfmoopgkmgphacmnlipfebinmoakbbia/publish-accepted?authuser=0&hl=en">
+              <Button href="https://chrome.google.com/webstore/detail/checkoutmojo/hfmoopgkmgphacmnlipfebinmoakbbia">
                 Install
               </Button>
             </span>
