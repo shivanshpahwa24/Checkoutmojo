@@ -25,7 +25,7 @@ const Home = () => {
             </p>
             <Button
               classes="p-3"
-              href="https://chrome.google.com/webstore/detail/hfmoopgkmgphacmnlipfebinmoakbbia/publish-accepted?authuser=0&hl=en"
+              href="https://chrome.google.com/webstore/detail/checkoutmojo/hfmoopgkmgphacmnlipfebinmoakbbia"
             >
               Install{" "}
               <span className="font-weight-normal text-capitalize">
@@ -81,7 +81,7 @@ const Home = () => {
             <Button
               children="Get Started Now"
               classes="p-3"
-              href="https://chrome.google.com/webstore/detail/hfmoopgkmgphacmnlipfebinmoakbbia/publish-accepted?authuser=0&hl=en"
+              href="https://chrome.google.com/webstore/detail/checkoutmojo/hfmoopgkmgphacmnlipfebinmoakbbia"
             />
           </div>
         </div>
